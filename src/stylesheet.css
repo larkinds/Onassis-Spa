@@ -1,0 +1,45 @@
+body,
+html {
+}
+
+.outside {
+  border: 0.1px solid lightblue;
+  width: 50%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.left {
+  border: 1px solid pink;
+  width: 10%;
+}
+
+.twitter-img {
+  margin: 2%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.middle {
+  width: 80%;
+  border: 1px dotted black;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.tweet-title {
+  width: 100%;
+  margin: 2%;
+  display: flex;
+}
+
+.tweet-title-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.right {
+  width: 10%;
+  border: 1px solid darkgreen;
+}
