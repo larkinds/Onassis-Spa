@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Router from './client/Router';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(
   <React.StrictMode>
